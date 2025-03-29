@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace cai_01
 {
-    internal class Alumno
+    public  class Alumno : Persona
     {
+        public int _codigo;
+
+        public int Codigo { get => _codigo; set => _codigo = value; }
+        protected override void GetCredencial() 
+        { 
+
+        }
     }
 }

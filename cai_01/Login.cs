@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace cai_01
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu_inicio nuevaVentana = new Menu_inicio();
+            nuevaVentana.Show();
+            this.Hide();
         }
     }
 }
