@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxUsuario = new System.Windows.Forms.TextBox();
+            this.textBoxPass = new System.Windows.Forms.TextBox();
             this.btn_ingresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -53,21 +53,21 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Contraseña";
             // 
-            // textBox1
+            // textBoxUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 47);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 28);
-            this.textBox1.TabIndex = 2;
+            this.textBoxUsuario.Location = new System.Drawing.Point(110, 47);
+            this.textBoxUsuario.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.textBoxUsuario.Name = "textBoxUsuario";
+            this.textBoxUsuario.Size = new System.Drawing.Size(100, 28);
+            this.textBoxUsuario.TabIndex = 2;            
             // 
-            // textBox2
+            // textBoxPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(110, 94);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 28);
-            this.textBox2.TabIndex = 3;
+            this.textBoxPass.Location = new System.Drawing.Point(110, 94);
+            this.textBoxPass.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.textBoxPass.Name = "textBoxPass";
+            this.textBoxPass.Size = new System.Drawing.Size(100, 28);
+            this.textBoxPass.TabIndex = 3;
             // 
             // btn_ingresar
             // 
@@ -91,8 +91,8 @@
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(284, 211);
             this.Controls.Add(this.btn_ingresar);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxPass);
+            this.Controls.Add(this.textBoxUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Myanmar Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -108,8 +108,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxUsuario;
+        private System.Windows.Forms.TextBox textBoxPass;
         private System.Windows.Forms.Button btn_ingresar;
     }
 }

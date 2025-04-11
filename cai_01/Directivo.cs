@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace cai_01
 {
-    internal class Directivo
+    internal class Directivo : Empleado
     {
+        protected override void GetNombreCompleto()
+        {
+
+        }
+
+        protected override string ListarEmpleados(bool listarConId)
+        {
+            return "Lista empleados";
+        }
     }
 }
